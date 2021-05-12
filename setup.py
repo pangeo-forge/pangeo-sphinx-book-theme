@@ -16,6 +16,8 @@ setup(
     license='MIT',
     author='Ryan Abernathey',
     author_email='rpa@ldeo.columbia.edu',
+    maintainer='Charles Stern',
+    maintainer_email='cstern@ldeo.columbia.edu',
     description='Pangeo\'s customized version of the Sphinx Book Theme.',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
@@ -32,7 +34,7 @@ setup(
     # See http://www.sphinx-doc.org/en/stable/theming.html#distribute-your-theme-as-a-python-package
     entry_points = {
         'sphinx.html_themes': [
-            'pangeo = pangeo_sphinx_book_theme',
+            'pangeo_sphinx_book_theme = pangeo_sphinx_book_theme',
         ]
     },
     install_requires=[
