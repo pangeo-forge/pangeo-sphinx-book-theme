@@ -38,7 +38,7 @@ setup(
         ]
     },
     install_requires=[
-       'sphinx', 'sphinx_book_theme<=0.1.7 '
+       'sphinx', 'sphinx_book_theme<=0.1.7'
     ],
     classifiers=[
         'Framework :: Sphinx',
